@@ -1,0 +1,118 @@
+nav{
+
+}
+.navbar{
+}
+.top-nav{
+  background: #451093;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.for-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.for-span{
+  display: block;
+  text-transform: uppercase;
+  color: white;
+  font-family: WorkSans-SemiBold;
+  font-size: 20px;
+  padding: 0.7rem;
+  
+}
+.for-span:hover{
+  background: rgba(255, 255, 255, 0.5);
+}
+.active{
+  background: white;
+  color: black;
+}
+.active:hover{
+  background: white;
+}
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.links-text{
+  font-family: WorkSans-Light;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+}
+.phone-img{
+  width: 30px;
+  font-size: 0;
+}
+.download-app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+.bottom-nav{
+}
+.inner-nav{
+  width: 94%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  font-size: 0;
+  margin-right: 1rem;
+}
+.logo-img{
+  width: 80px;
+}
+.split-div{
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+.categories{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: WorkSans-SemiBold;
+  font-size: 0;
+}
+.d-arrow{
+  width: 20px;
+}
+.category{
+  padding: 0.5rem;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.category:hover{
+  border-bottom: 5px solid #451093;
+  color: #451093;
+}
+.page-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.pages{
+  font-family: WorkSans-Medium;
+  font-size: 0;
+}
+.pages:hover{
+  border-bottom: 5px solid #451093;
+}
+.pages-icon{
+  width: 40px;
+}
