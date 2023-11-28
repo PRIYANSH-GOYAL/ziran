@@ -1,5 +1,6 @@
 :root {
   /* --main-color: red; */
+  --search-button-size: 40px;
 }
 @font-face {
   font-family: Nitro;
@@ -35,3 +36,55 @@ a{
   text-decoration: none;
   color: black;
 }
+
+/* search box animation and working_______________________ */
+.search-box {
+  background: transparent;
+  position: relative;
+  --size-button: 40px;
+}
+
+.search-input {
+  padding-left: var(--size-button);
+  height: var(--size-button);
+  font-size: 15px;
+  border: none;
+  /* color: #fff; */
+  background: transparent;
+  outline: none;
+  width: var(--size-button);
+  transition: all ease 0.3s;
+  /* border-radius: 50px; */
+  cursor: pointer;
+}
+.search-input::placeholder{
+  color: black;
+}
+
+.search-input:focus,
+.search-input:not(:invalid) {
+  border: 1px solid black;
+  width: 170px;
+  cursor: text;
+  /* padding: 1rem 1rem 1rem 2.5rem; */
+}
+
+.search-input:focus + .search-icon,
+.search-input:not(:invalid) + .search-icon {
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.search-box .search-icon {
+  position: absolute;
+  width: var(--size-button);
+  height: var(--size-button);
+  top: 0;
+  /* left: 0; */
+  pointer-events: none;
+}
+
+.search-box .search-icon img {
+  width: 40px;
+}
+/* search box animation and working_______________________ */

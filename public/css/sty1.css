@@ -362,3 +362,23 @@ label {
   transform: scale(1);
 }
 /* custom buttons ____________________________________ */
+
+
+.con2{
+  padding: 10rem 0;
+}
+.name-ziran{
+  font-size: 400px;
+  text-align: center;
+  font-family: Nitro;
+}
+.con3{
+  padding: 10rem 0;
+  background: black;
+}
+.name-ziran2{
+  font-size: 400px;
+  text-align: center;
+  font-family: Nitro;
+  color: white;
+}
