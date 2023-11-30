@@ -41,7 +41,7 @@ a{
 .search-box {
   background: transparent;
   position: relative;
-  --size-button: 40px;
+  --size-button: 30px;
 }
 
 .search-input {
@@ -80,11 +80,10 @@ a{
   width: var(--size-button);
   height: var(--size-button);
   top: 0;
-  /* left: 0; */
   pointer-events: none;
 }
 
 .search-box .search-icon img {
-  width: 40px;
+  width: var(--size-button);
 }
 /* search box animation and working_______________________ */
